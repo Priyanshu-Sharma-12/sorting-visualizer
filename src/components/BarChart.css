@@ -1,0 +1,17 @@
+
+.bar-chart {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 300px;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  max-width: 800px;
+  gap: 4px;
+}
+
+.bar {
+  width: 10px;
+  background-color: steelblue;
+  transition: height 0.3s;
+}

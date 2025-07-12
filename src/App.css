@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #e0f7fa, #b2ebf2);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.app {
+  text-align: center;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.control-group {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.speed-control {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+select,
+button {
+  padding: 8px 14px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+select:hover,
+button:hover {
+  background-color: #0056b3;
+}
+.controls span{
+  color: black;
+}
+
+
+.custom-input {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.custom-input input {
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 300px;
+}
+
+.custom-input button {
+  padding: 8px 14px;
+  font-size: 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.custom-input button:hover {
+  background-color: #218838;
+}
+.algo-info {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: black;
+  font-style: italic;
+}
+.app-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  margin-top: 20px;
+  flex-wrap: nowrap;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.main-content {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pseudocode-panel {
+  flex: 1;
+  text-align: left;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 12px 16px;
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.4;
+  align-self: flex-start;
+  max-width: 400px;
+  min-width: 280px;
+}
+
+.pseudocode-panel h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 4px;
+}
+.app-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.main-content {
+  flex: 2;
+  max-width: 800px;
+}
+
+.pseudocode-panel {
+  flex: 1;
+  text-align: left;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 330px;
+  padding: 12px 16px;
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.4;
+  align-self: flex-start;
+  max-width: 300px;
+  min-width: 250px;
+}
+.step-controls button{
+  margin: 10px;
+}
